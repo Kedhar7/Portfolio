@@ -20,7 +20,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              something, I think so… 🤷‍♂️
               <br />
               <br />I specialize in 
             
