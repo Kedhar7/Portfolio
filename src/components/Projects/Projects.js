@@ -4,12 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 // Import project images
-import leaf from "../../Assets/Projects/leaf.png";
 import hospital from "../../Assets/Projects/Hospital.png";
 import inventory from "../../Assets/Projects/Inventory.png";
 import pdfAuto from "../../Assets/Projects/PDFAuto.png";
 import skinCancer from "../../Assets/Projects/SkinCancer.png";
-import suicide from "../../Assets/Projects/suicide.png"; // Added AI for Social Good image
 
 function Projects() {
   return (
