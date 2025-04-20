@@ -37,7 +37,7 @@ function Projects() {
 {/* Natural Language to SQL Queries */}
           <Col md={5} className="project-card">
             <ProjectCard
-              imgPath={skinCancer}
+              imgPath={NLSQL}
               isBlog={false}
               title="Natural Language to SQL Queries"
               description="Built a Natural Language to SQL Query system using Azure OpenAI, processing unlimited queries daily with AI-driven validation, security enforcement, and 7+ advanced data visualizations, streamlining database interactions. "
