@@ -8,7 +8,7 @@ import hospital from "../../Assets/Projects/Hospital.png";
 import inventory from "../../Assets/Projects/Inventory.png";
 import pdfAuto from "../../Assets/Projects/PDFAuto.png";
 import skinCancer from "../../Assets/Projects/SkinCancer.png";
-import NLSQL from "../../Assets/Projects/NLSQL.jpg";
+import NLSQL from "../../Assets/Projects/NLSQL.png";
 
 function Projects() {
   return (
