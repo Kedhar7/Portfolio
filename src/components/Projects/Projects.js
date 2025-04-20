@@ -29,7 +29,7 @@ function Projects() {
             <ProjectCard
               imgPath={F1ML}
               isBlog={false}
-              title="Formula 1 Race Prediction Using Machine Learning "
+              title="Formula 1 Race Winner Prediction"
               description="Predicted 2025 Japanese GP outcome using FastF1 API data and Gradient Boosting model, achieving 0.156s MAE. Predicted winner and top positions with 92% accuracy, demonstrating real-world application of ML in sports analytics."
               ghLink="https://github.com/Kedhar7/F1-Race-Winner-Prediction-JapanGP"
             />
@@ -41,7 +41,7 @@ function Projects() {
               imgPath={NLSQL}
               isBlog={false}
               title="Natural Language to SQL Queries"
-              description="Built a Natural Language to SQL Query system using Azure OpenAI, processing unlimited queries daily with AI-driven validation, security enforcement, streamlining database interactions. "
+              description="Built a Natural Language to SQL Query system using Azure OpenAI, processing unlimited queries daily with AI-driven validation, security enforcement,streamlining database interactions."
               ghLink="https://github.com/Kedhar7/Natural-Language-To-SQL-Query"
             />
           </Col>
