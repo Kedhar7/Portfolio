@@ -22,13 +22,37 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+{/* Formula 1 Race Winner Prediction Using Machine Learning */}
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={skinCancer}
+              isBlog={false}
+              title="Formula 1 Race Winner Prediction Using Machine Learning "
+              description="Predicted 2025 Japanese GP outcome using FastF1 API data and Gradient Boosting model, achieving 0.156s MAE. Predicted winner and top positions with 92% accuracy, demonstrating real-world application of ML in sports analytics."
+              ghLink="https://github.com/Kedhar7/F1-Race-Winner-Prediction-JapanGP"
+            />
+          </Col>
+
+{/* Natural Language to SQL Queries */}
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={skinCancer}
+              isBlog={false}
+              title="Natural Language to SQL Queries"
+              description="Built a Natural Language to SQL Query system using Azure OpenAI, processing unlimited queries daily with AI-driven validation, security enforcement, and 7+ advanced data visualizations, streamlining database interactions. "
+              ghLink="https://github.com/Kedhar7/Natural-Language-To-SQL-Query"
+            />
+          </Col>
+
+
+
           {/* Skin Cancer Detection */}
           <Col md={5} className="project-card">
             <ProjectCard
               imgPath={skinCancer}
               isBlog={false}
               title="Skin Cancer Detection and Classification"
-              description="Developed a FastAI-based ResNet18 and ResNet34 Models Integrated with Transfer Learning to classify skin lesions using the HAM10000 dataset. This achieved over 97% validation accuracy. Tested the model using 10,000+ images."
+              description="Developed a FastAI-based ResNet Models Integrated with Transfer Learning to classify skin lesions using the HAM10000 dataset. This achieved over 97% validation accuracy. Tested the model using 10,000+ images."
               ghLink="https://github.com/Kedhar7/Skin-Lesion-Classification"
             />
           </Col>
