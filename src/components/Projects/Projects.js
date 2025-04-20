@@ -30,7 +30,7 @@ function Projects() {
               imgPath={F1ML}
               isBlog={false}
               title="Formula 1 Race Winner Prediction"
-              description="Predicted 2025 Japanese GP outcome using FastF1 API data and Gradient Boosting model, achieving 0.156s MAE. Predicted winner and top positions with 92% accuracy, demonstrating real-world application of ML in sports analytics."
+              description="Predicted 2025 Japanese GP using FastF1 API data and Gradient Boosting model, achieving 0.156s MAE. Predicted winner and top positions with 92% accuracy."
               ghLink="https://github.com/Kedhar7/F1-Race-Winner-Prediction-JapanGP"
             />
           </Col>
@@ -41,7 +41,7 @@ function Projects() {
               imgPath={NLSQL}
               isBlog={false}
               title="Natural Language to SQL Queries"
-              description="Built a Natural Language to SQL Query system using Azure OpenAI, processing unlimited queries daily with AI-driven validation, security enforcement,streamlining database interactions."
+              description="Built a Natural Language to SQL Query system, processing unlimited queries daily with AI-driven validation, security enforcement,streamlining database interactions."
               ghLink="https://github.com/Kedhar7/Natural-Language-To-SQL-Query"
             />
           </Col>
@@ -54,7 +54,7 @@ function Projects() {
               imgPath={skinCancer}
               isBlog={false}
               title="Skin Cancer Detection and Classification"
-              description="Developed a FastAI-based ResNet Models Integrated with Transfer Learning to classify skin lesions using the HAM10000 dataset. This achieved over 97% validation accuracy. Tested the model using 10,000+ images."
+              description="Developed a FastAI-based ResNet Models Integrated with Transfer Learning to classify skin lesions using the HAM10000 dataset. This achieved over 97% validation accuracy."
               ghLink="https://github.com/Kedhar7/Skin-Lesion-Classification"
             />
           </Col>
