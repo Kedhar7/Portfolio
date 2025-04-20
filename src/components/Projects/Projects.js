@@ -21,16 +21,6 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-  {/* Skin Cancer Detection */}
-          <Col md={5} className="project-card">
-            <ProjectCard
-              imgPath={skinCancer}
-              isBlog={false}
-              title="Skin Cancer Detection and Classification"
-              description="Developed a CNN-based model to classify skin lesions using the HAM10000 dataset. This achieved over 62% validation accuracy. Tested the model using 10,000+ images."
-              ghLink="https://github.com/Kedhar7/Skin-Lesion-Classification"
-            />
-          </Col>
 
           {/* Skin Cancer Detection */}
           <Col md={5} className="project-card">
