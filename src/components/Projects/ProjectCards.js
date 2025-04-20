@@ -9,7 +9,7 @@ function ProjectCards(props) {
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "right", display: "-webkit-box", WebkitLineClamp: 3, WebkitBoxOrient: "vertical", overflow: "hidden" }}>
+        <Card.Text style={{ textAlign: "left", display: "-webkit-box", WebkitLineClamp: 3, WebkitBoxOrient: "vertical", overflow: "hidden" }}>
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
