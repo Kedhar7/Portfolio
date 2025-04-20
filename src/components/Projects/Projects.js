@@ -9,6 +9,7 @@ import inventory from "../../Assets/Projects/Inventory.png";
 import pdfAuto from "../../Assets/Projects/PDFAuto.png";
 import skinCancer from "../../Assets/Projects/SkinCancer.png";
 import NLSQL from "../../Assets/Projects/NLSQL.png";
+import F1ML from "../../Assets/Projects/F1ML.png";
 
 function Projects() {
   return (
@@ -26,9 +27,9 @@ function Projects() {
 {/* Formula 1 Race Winner Prediction Using Machine Learning */}
           <Col md={5} className="project-card">
             <ProjectCard
-              imgPath={skinCancer}
+              imgPath={F1ML}
               isBlog={false}
-              title="Formula 1 Race Winner Prediction Using Machine Learning "
+              title="Formula 1 Race Prediction Using Machine Learning "
               description="Predicted 2025 Japanese GP outcome using FastF1 API data and Gradient Boosting model, achieving 0.156s MAE. Predicted winner and top positions with 92% accuracy, demonstrating real-world application of ML in sports analytics."
               ghLink="https://github.com/Kedhar7/F1-Race-Winner-Prediction-JapanGP"
             />
@@ -40,7 +41,7 @@ function Projects() {
               imgPath={NLSQL}
               isBlog={false}
               title="Natural Language to SQL Queries"
-              description="Built a Natural Language to SQL Query system using Azure OpenAI, processing unlimited queries daily with AI-driven validation, security enforcement, and 7+ advanced data visualizations, streamlining database interactions. "
+              description="Built a Natural Language to SQL Query system using Azure OpenAI, processing unlimited queries daily with AI-driven validation, security enforcement, streamlining database interactions. "
               ghLink="https://github.com/Kedhar7/Natural-Language-To-SQL-Query"
             />
           </Col>
