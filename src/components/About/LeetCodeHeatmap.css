@@ -1,0 +1,30 @@
+.react-calendar-heatmap .color-empty,
+.react-calendar-heatmap .lc-empty {
+  fill: #2a2338;
+}
+
+.react-calendar-heatmap .lc-1 {
+  fill: #5b3a8a;
+}
+
+.react-calendar-heatmap .lc-2 {
+  fill: #7c4dbe;
+}
+
+.react-calendar-heatmap .lc-3 {
+  fill: #a066ff;
+}
+
+.react-calendar-heatmap .lc-4 {
+  fill: #c084ff;
+}
+
+.react-calendar-heatmap text {
+  fill: #e6e6e6;
+  font-size: 10px;
+}
+
+.react-calendar-heatmap {
+  width: 100%;
+  min-width: 720px;
+}
